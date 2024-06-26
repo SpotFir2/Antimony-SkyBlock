@@ -853,7 +853,7 @@ public class Antimony {
             FunctionManager.bindFunction("AutoKillWorm");
             FunctionManager.addConfiguration(new SettingLimitInt("间隔时间", "cooldown", 300, Integer.MAX_VALUE, 0));
             FunctionManager.addConfiguration(new SettingBoolean("瞄准Worm", "aim", false));
-            FunctionManager.addConfiguration(new SettingString("右键物品名称", "itemName", "staff of the vol"));
+            FunctionManager.addConfiguration(new SettingString("右键物品名称", "itemName", "fire fury staff"));
             FunctionManager.addConfiguration(new SettingInt("右键次数", "rcCount", 1));
             FunctionManager.addConfiguration(new SettingInt("右键延迟(游戏刻)", "rcCooldown", 10));
             FunctionManager.addConfiguration(new SettingInt("计时器位置(X)", "timerX", 200));
